@@ -1,0 +1,35 @@
+﻿# Raw datasets
+data/*.log
+data/*.gz
+data/*.zip
+
+# Splunk runtime/local files
+*.splunk
+splunk/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# IDE / OS
+.vscode/
+.idea/
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+
+# CIREN raw/public dataset binaries
+*.sas7bdat
+*.sas7bcat
+
+# Large installers
+*.msi
+
+# Generated analytical outputs
+*.csv
+*.parquet
+*.pkl
+*.pickle
